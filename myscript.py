@@ -115,7 +115,7 @@ article = get_page('Q51538190')
 my_page = 'User:Azaya89/Outreachy 1'
 if __name__ == "__main__":
     #This prevents these functions from being executed if the module is imported into another file. It runs only when this module is called directly.
-    # print_my_page(my_page)
-    # edit_article(my_page)
+    print_my_page(my_page)
+    edit_article(my_page)
     print_article(article)
-    # print_all_articles(articles)
+    print_all_articles(articles)
