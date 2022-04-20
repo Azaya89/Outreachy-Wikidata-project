@@ -58,7 +58,7 @@ def print_article(wd_item, repo=repo):
 
     #Print title and Q identifier of article.
     try:
-        print('\nTitle of article: \n' + page_info['labels']['en'])
+        print('\nTitle of article: \n\t' + page_info['labels']['en'])
         print('\nQ identifier of article:\n \t' + item_code + '\n')
     except:
         print('Item Name: This item has no English label!' + '\n')
